@@ -1,0 +1,47 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python virtual environments
+backend/.venv/
+venv/
+.venv/
+
+# Python cache and testing
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private credentials and keys
+*.pem
+*.key
+secrets/
+credentials/
